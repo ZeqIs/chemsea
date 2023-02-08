@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS STYLE */
+
+.skipper{
+    position: absolute!important;
+    width: 1px!important;
+    height: 1px!important;
+    padding: 0!important;
+    margin: -1px!important;
+    overflow: hidden!important;
+    clip: rect(0,0,0,0)!important;
+    white-space: nowrap!important;
+    border: 0!important;
+}
+
+.btn-primary{
+    background-color: #4a8bdf;
+}
+
+.btn-primary:hover{
+    background-color: #3669ac;
+}
+
+.btn-outline-primary{
+    color: #4a8bdf;
+    border-color: #4a8bdf;
+}
+
+.btn-outline-primary:hover{
+    color: white;
+    background-color: #4a8bdf;
+}
+
+textarea{
+    resize: none;
+}
+
+/* Sidebar style */
+
+#ch-side-nav ul{
+    flex-wrap: wrap!important;
+}
+
+@media(min-width: 768px) {
+#ch-side-nav .mt-md-5{
+    margin-top: 4rem!important;
+}
+}
+
+.side-nav-item{
+    width: 100%;
+}
+
+.sidebar-toggle{
+    color: #626262;
+    border: 1px solid #a6a6a65a;
+}
+
+.sidebar-toggle:hover{
+    color: white;
+    background-color: #626262;
+}
+
+.sidebar-toggle:focus{
+    box-shadow: 0 0 0 1px #a6a6a698;
+}
+
+.sidebar-toggle[aria-expanded=false] .sidebar-expanded{
+    display: none;
+}
+
+.sidebar-toggle[aria-expanded=true] .sidebar-collapsed{
+    display: none;
+}
+
+.sn-btn{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0.25rem;
+    text-align: start;
+}
+
+.sn-btn:hover{
+    color: #323232;
+    background-color: #a6a6a638;
+}
+
+.sn-primary-btn{
+    color: #323232;
+}
+
+.sn-btn:focus{
+    box-shadow: 0 0 0 0;
+    color: #323232;
+    background-color: #a6a6a638;
+}
+
+.sn-secondary-btn{
+    color: #868686;
+    font-size: 14px;
+}
+
+/* Login Page style */
+.topbar{
+    height: auto;
+    width: 100%;
+    background-color: #bfbfbf;
+}
+
+.bottombar{
+    margin-top: -16px;
+    background-color: #17437d;
+}
+
+body{
+    background-color: #effafd;
+}
+
+.login-card .card-header{
+    background-color: #17437d;
+    color: white;
+}
+
+@media(min-width: 768px) {
+.login-card.my-md-5{
+    margin-top: 4rem!important;
+    margin-bottom: 4rem!important;
+}
+}
+
+.fgt-pw{
+    font-size: small;
+    text-decoration: none;
+    color: #626262
+}
+
+/* Register Page style */
+
+.reg-note{
+    font-size: small;
+}
+
+/* Manage Profile Page style */
+
+/* New Application Page style */
